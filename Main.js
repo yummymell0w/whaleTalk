@@ -14,4 +14,4 @@ for (let inputIndex = 0; inputIndex < input.length; inputIndex ++) {
         resultArray.push(input[inputIndex]);
     }
 }
-console.log(resultArray);
+console.log(resultArray.join('').toUpperCase());
